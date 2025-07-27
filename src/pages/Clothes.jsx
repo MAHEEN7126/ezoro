@@ -1,6 +1,5 @@
 import Product from "../components/product";
 
-
 function Clothes() {
   return (
     <div className="bg-gray-200">
@@ -25,12 +24,14 @@ function Clothes() {
           ALL STOCK
         </h1>
         <section>
-          < Product/>
+          <Product />
         </section>
       </main>
-     <footer className="bg-black text-white text-center py-4 mt-10">
-    <p className="text-sm">© {new Date().getFullYear()} YourBrand. All rights reserved.</p>
-  </footer>
+      <footer className="bg-black text-white text-center py-4 mt-10">
+        <p className="text-sm">
+          © {new Date().getFullYear()} YourBrand. All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 }

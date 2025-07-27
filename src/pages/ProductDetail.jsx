@@ -1,7 +1,6 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import ProductSuggestion from "../components/ProductSuggestion";
-import products from "./ProductData"; // move your data array here
+import products from "./ProductData";
 
 function ProductDetail() {
   const { id } = useParams();
@@ -11,7 +10,6 @@ function ProductDetail() {
 
   return (
     <div className="p-6">
-      {/* Main Product Info */}
       <div className="flex flex-col md:flex-row gap-6">
         <img
           src={product.image}
@@ -25,7 +23,6 @@ function ProductDetail() {
         </div>
       </div>
 
-      {/* Related Products */}
       <ProductSuggestion currentIndex={parseInt(id)} />
     </div>
   );

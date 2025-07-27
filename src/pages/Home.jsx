@@ -1,5 +1,4 @@
 import Header from "../components/Header";
-
 import Page2 from "../components/Page2";
 import AllProduct from "../components/AllProduct";
 
@@ -30,9 +29,11 @@ function Home() {
         <section className="bg-white"></section>
       </main>
 
-       <footer className="bg-black text-white text-center py-4 mt-10">
-    <p className="text-sm">© {new Date().getFullYear()} YourBrand. All rights reserved.</p>
-  </footer>
+      <footer className="bg-black text-white text-center py-4 mt-10">
+        <p className="text-sm">
+          © {new Date().getFullYear()} YourBrand. All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 }

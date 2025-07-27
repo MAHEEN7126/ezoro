@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { useCart } from "../context/CartContext";
 function ShoesCard() {
   const { addToCart } = useCart();
-   const [clickedIndex, setClickedIndex] = useState(null);
+  const [clickedIndex, setClickedIndex] = useState(null);
 
   const shoesItem = [
     {
@@ -39,7 +39,7 @@ function ShoesCard() {
         "Casual yet radiant — the ideal slip-on for relaxed movement.",
     },
 
-     {
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v2_make_a_descent_and_l (4).png",
       name: "Golden Steps",
@@ -47,7 +47,7 @@ function ShoesCard() {
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
     },
-  {
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v2_make_a_descent_and_l.png",
       name: "Golden Steps",
@@ -56,7 +56,7 @@ function ShoesCard() {
         "Shimmering gold-tone shoes that elevate your everyday look.",
     },
 
-     {
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v2_make_a_descent_and_l.png",
       name: "Golden Steps",
@@ -64,7 +64,7 @@ function ShoesCard() {
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
     },
-     {
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l (2).png",
       name: "Golden Steps",
@@ -72,42 +72,47 @@ function ShoesCard() {
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
     },
-     {
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l (3).png",
       name: "Golden Steps",
       price: "$74.99",
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
-    }, {
+    },
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l (4).png",
       name: "Golden Steps",
       price: "$74.99",
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
-    }, {
+    },
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l (5).png",
       name: "Golden Steps",
       price: "$74.99",
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
-    }, {
+    },
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l (6).png",
       name: "Golden Steps",
       price: "$74.99",
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
-    }, {
+    },
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l (7).png",
       name: "Golden Steps",
       price: "$74.99",
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
-    }, {
+    },
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l (8).png",
       name: "Golden Steps",
@@ -123,21 +128,24 @@ function ShoesCard() {
       price: "$74.99",
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
-    },{
+    },
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l (10).png",
       name: "Golden Steps",
       price: "$74.99",
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
-    },{
+    },
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l (11).png",
       name: "Golden Steps",
       price: "$74.99",
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
-    },{
+    },
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l (12).png",
       name: "Golden Steps",
@@ -145,14 +153,15 @@ function ShoesCard() {
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
     },
-{
+    {
       image:
         "/assets/Footwears/FootwearShoes/flux-1-kontext-pro_make_jogger_shoes_p.png",
       name: "Golden Steps",
       price: "$74.99",
       Discription:
         "Shimmering gold-tone shoes that elevate your everyday look.",
-    },{
+    },
+    {
       image:
         "/assets/Footwears/FootwearShoes/gpt-image-1_make_jogger_shoes_p.png",
       name: "Golden Steps",
@@ -184,8 +193,8 @@ function ShoesCard() {
             <p className="text-xl font-bold text-center text-black pb-2">
               {item.price}
             </p>
-                 <div className="flex grid grid-cols justify-center mt-3 pb-6">
-                          <button
+            <div className="flex grid grid-cols justify-center mt-3 pb-6">
+              <button
                 onClick={() => {
                   addToCart(item);
                   setClickedIndex(index);
@@ -198,7 +207,7 @@ function ShoesCard() {
 
               {clickedIndex === index && (
                 <p className="mt-4 text-center text-white text-sm bg-black/50 px-3 py-1 rounded-full shadow-md backdrop-blur-md animate-pulse">
-                   Added to Cart
+                  Added to Cart
                 </p>
               )}
             </div>

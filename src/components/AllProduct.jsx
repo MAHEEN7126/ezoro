@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { useCart } from "../context/CartContext";
 function AllProduct() {
-  
   const { addToCart } = useCart();
-     const [clickedIndex, setClickedIndex] = useState(null);
+  const [clickedIndex, setClickedIndex] = useState(null);
   const AllData = [
     {
       image:
@@ -12,54 +11,49 @@ function AllProduct() {
       Discription: "Soft-touch straps with cloud-light cushioning",
       name: "FeatherStride",
       price: "$59.99",
-
     },
 
-
-      {
+    {
       image:
         "/assets/Footwears/FootwearSandals/ideogram-v3-quality_give_me_woman_sandal.png",
       Discription: "A relaxed fit meets stylish polish",
       name: "GlowWalk Sandal",
       price: "$41.99",
     },
-     {
-      image:
-        "/assets/JewelryPics/ideogram-v2_make_a_descent_and_b (12).png",
+    {
+      image: "/assets/JewelryPics/ideogram-v2_make_a_descent_and_b (12).png",
       Discription: "Soft-touch straps with cloud-light cushioning",
       name: "FeatherStride",
       price: "$59.99",
     },
- {
+    {
       image:
         "/assets/Footwears/FootwearSlipers/ideogram-v3-quality_give_me_slipper_bu.png",
       Discription: "Soft-touch straps with cloud-light cushioning",
       name: "FeatherStride",
       price: "$59.99",
     },
- {
+    {
       image:
         "/assets/Footwears/FootwearSandals/ideogram-v2_make_descent_and_sta (1).png",
       Discription: "Soft-touch straps with cloud-light cushioning",
       name: "FeatherStride",
       price: "$59.99",
     },
- {
-      image:
-        "/assets/JewelryPics/ideogram-v2_make_a_descent_and_b (4).png",
+    {
+      image: "/assets/JewelryPics/ideogram-v2_make_a_descent_and_b (4).png",
       Discription: "Soft-touch straps with cloud-light cushioning",
       name: "FeatherStride",
       price: "$59.99",
     },
- {
-      image:
-        "/assets/ClothesItem/ideogram-v3-quality_give_me_descenet_dre.png",
+    {
+      image: "/assets/ClothesItem/ideogram-v3-quality_give_me_descenet_dre.png",
       Discription: "Soft-touch straps with cloud-light cushioning",
       name: "FeatherStride",
       price: "$59.99",
     },
 
-{
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l (11).png",
       name: "Golden Steps",
@@ -69,17 +63,14 @@ function AllProduct() {
     },
 
     {
-      image:
-        "/assets/ClothesItem/ideogram-v3-quality_give_me_a_model_for_.png",
+      image: "/assets/ClothesItem/ideogram-v3-quality_give_me_a_model_for_.png",
       Discription: "Soft-touch straps with cloud-light cushioning",
       name: "FeatherStride",
       price: "$59.99",
     },
 
-
-     {
-      image:
-        "/assets/ClothesItem/ideogram-v2_give_me_descenet_dre (5).png",
+    {
+      image: "/assets/ClothesItem/ideogram-v2_give_me_descenet_dre (5).png",
       Discription: "Soft-touch straps with cloud-light cushioning",
       name: "FeatherStride",
       price: "$59.99",
@@ -91,7 +82,7 @@ function AllProduct() {
       name: "VelvetEase Slide",
       price: "$44.00",
     },
-     {
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l.png",
       name: "Golden Steps",
@@ -107,7 +98,7 @@ function AllProduct() {
       price: "$41.99",
     },
 
-     {
+    {
       image:
         "/assets/ClothesItem/ideogram-v3-quality_give_me_descenet_dre (2).png",
       Discription: "A relaxed fit meets stylish polish",
@@ -115,15 +106,14 @@ function AllProduct() {
       price: "$41.99",
     },
 
-      {
-      image:
-        "/assets/JewelryPics/ideogram-v2_make_a_descent_and_b (7).png",
+    {
+      image: "/assets/JewelryPics/ideogram-v2_make_a_descent_and_b (7).png",
       Discription: "A relaxed fit meets stylish polish",
       name: "GlowWalk Sandal",
       price: "$41.99",
     },
 
-      {
+    {
       image:
         "/assets/Footwears/FootwearShoes/ideogram-v3-quality_make_a_descent_and_l (4).png",
       Discription: "A relaxed fit meets stylish polish",
@@ -131,7 +121,7 @@ function AllProduct() {
       price: "$41.99",
     },
 
-      {
+    {
       image:
         "/assets/JewelryPics/ideogram-v3-quality_make_a_descent_and_b (1).png",
       Discription: "A relaxed fit meets stylish polish",
@@ -139,7 +129,7 @@ function AllProduct() {
       price: "$41.99",
     },
 
-       {
+    {
       image:
         "/assets/JewelryPics/ideogram-v3-quality_make_a_descent_and_b (6).png",
       Discription: "A relaxed fit meets stylish polish",
@@ -147,8 +137,7 @@ function AllProduct() {
       price: "$41.99",
     },
 
-
-      {
+    {
       image:
         "/assets/ClothesItem/ideogram-v3-quality_give_me_descenet_dre (1).png",
       Discription: "A relaxed fit meets stylish polish",
@@ -156,19 +145,14 @@ function AllProduct() {
       price: "$41.99",
     },
 
-       {
-      image:
-        "/assets/JewelryPics/ideogram-v2_make_a_descent_and_b (1).png",
+    {
+      image: "/assets/JewelryPics/ideogram-v2_make_a_descent_and_b (1).png",
       Discription: "A relaxed fit meets stylish polish",
       name: "GlowWalk Sandal",
       price: "$41.99",
     },
-
-
   ];
   return (
-
-
     <div className=" w-full h-full flex justify-center">
       <div className="p-12 mt-12 grid grid-cols-1 ms:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  ">
         {AllData.map((item, index) => (
@@ -188,8 +172,8 @@ function AllProduct() {
               {item.Discription}
             </p>
             <p className="text-black text-center">{item.price}</p>
-             <div className="flex grid grid-cols justify-center mt-3 pb-6">
-                          <button
+            <div className="flex grid grid-cols justify-center mt-3 pb-6">
+              <button
                 onClick={() => {
                   addToCart(item);
                   setClickedIndex(index);
@@ -202,16 +186,15 @@ function AllProduct() {
 
               {clickedIndex === index && (
                 <p className="mt-4 text-center text-white text-sm bg-black/50 px-3 py-1 rounded-full shadow-md backdrop-blur-md animate-pulse">
-                   Added to Cart
+                  Added to Cart
                 </p>
               )}
             </div>
-            </div>
-          
+          </div>
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 export default AllProduct;

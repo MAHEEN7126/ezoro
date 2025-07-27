@@ -1,11 +1,8 @@
-import React from "react";
 import ProductCard from "./ProductCard";
-import products from "../pages/ProductData"; // Your real data file
+import products from "../pages/ProductData";
 
 function ProductSuggestion({ currentIndex }) {
-  const suggestions = products
-    .filter((_, i) => i !== currentIndex)
-    .slice(0, 4); // Show 4 others
+  const suggestions = products.filter((_, i) => i !== currentIndex).slice(0, 4);
 
   return (
     <div className="mt-12">

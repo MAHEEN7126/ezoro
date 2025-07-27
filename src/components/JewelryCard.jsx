@@ -176,7 +176,7 @@ function JewelryCard() {
 
               {clickedIndex === index && (
                 <p className="mt-4 text-center text-white text-sm bg-white/40 px-3 py-1 rounded-full shadow-md backdrop-blur-md animate-pulse">
-                   Added to Cart
+                  Added to Cart
                 </p>
               )}
             </div>

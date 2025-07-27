@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import { useCart } from "../context/CartContext";
 function SandalCard() {
@@ -118,13 +118,10 @@ function SandalCard() {
       name: "ZenStep Sandal",
       price: "$51.00",
     },
-
-
-
   ];
 
   return (
-   <div className="w-full flex justify-center min-h-screen">
+    <div className="w-full flex justify-center min-h-screen">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-12 mx-9 gap-5">
         {sandalItems.map((item, index) => (
           <div
@@ -146,8 +143,8 @@ function SandalCard() {
             <p className="text-2xl font-bold text-center text-black py-2">
               {item.price}
             </p>
-                  <div className="flex grid grid-cols justify-center mt-3 pb-6">
-                          <button
+            <div className="flex grid grid-cols justify-center mt-3 pb-6">
+              <button
                 onClick={() => {
                   addToCart(item);
                   setClickedIndex(index);
@@ -160,7 +157,7 @@ function SandalCard() {
 
               {clickedIndex === index && (
                 <p className="mt-4 text-center text-white text-sm bg-black/50 px-3 py-1 rounded-full shadow-md backdrop-blur-md animate-pulse">
-                   Added to Cart
+                  Added to Cart
                 </p>
               )}
             </div>

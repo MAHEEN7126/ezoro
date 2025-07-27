@@ -1,8 +1,7 @@
-import React from "react";
 import { useCart } from "../context/CartContext";
 
 function Cart() {
-  const { cart, removeFromCart,  } = useCart();
+  const { cart, removeFromCart } = useCart();
 
   return (
     <div className="p-4">
@@ -43,7 +42,6 @@ function Cart() {
                 </p>
               </div>
               <div className="flex flex-col gap-2">
-               
                 <button
                   onClick={() => removeFromCart(item.name)}
                   className="bg-red-600 text-white px-3 py-1 rounded hover:bg-red-700"

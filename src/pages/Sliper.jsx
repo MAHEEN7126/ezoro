@@ -4,9 +4,6 @@ import SlipersCard from "../components/SlipersCard";
 function Sliper() {
   return (
     <div className="bg-gray-100">
-      {/* Navbar on top-left over image */}
-     
-      {/* Header Image with text */}
       <header className="overflow-hidden">
         <div className=" mt-[34px] relative shadow-md w-full h-[200px] sm:h-[200px] lg:h-[300px] overflow-hidden">
           <img
@@ -22,9 +19,11 @@ function Sliper() {
           </p>
         </div>
 
-
-           <nav className="absolute top-14 left-3 bg-white/70 backdrop-blur-md text-red-800 text-sm sm:text-lg px-6 py-2 rounded-full shadow-md space-x-4 font-semibold">
-          <Link to="/AllShoes" className="hover:underline hover:text-yellow-700">
+        <nav className="absolute top-14 left-3 bg-white/70 backdrop-blur-md text-red-800 text-sm sm:text-lg px-6 py-2 rounded-full shadow-md space-x-4 font-semibold">
+          <Link
+            to="/AllShoes"
+            className="hover:underline hover:text-yellow-700"
+          >
             Shoes
           </Link>
           <Link to="/sandal" className="hover:underline hover:text-yellow-700">
@@ -36,9 +35,6 @@ function Sliper() {
         </nav>
       </header>
 
-       
-
-      {/* Main Content */}
       <main className="min-h-screen">
         <h1 className="text-3xl text-red-900 text-center mt-12 pb-2 shadow-xl font-bold transition duration-300 transform hover:shadow-xl hover:scale-105 active:scale-105">
           Slippers
@@ -47,9 +43,11 @@ function Sliper() {
           <SlipersCard />
         </section>
       </main>
-       <footer className="bg-black text-white text-center py-4 mt-10">
-    <p className="text-sm">© {new Date().getFullYear()} YourBrand. All rights reserved.</p>
-  </footer>
+      <footer className="bg-black text-white text-center py-4 mt-10">
+        <p className="text-sm">
+          © {new Date().getFullYear()} YourBrand. All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 }

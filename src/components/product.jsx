@@ -180,10 +180,9 @@ function Product() {
       price: "$125.00",
       Discription:
         "Timeless silhouette crafted in smooth silk for a polished look.",
-    }, 
-     {
-    
- image: "/assets/ClothesItem/ideogram-v3-quality_give_me_clothes_pic_.png",
+    },
+    {
+      image: "/assets/ClothesItem/ideogram-v3-quality_give_me_clothes_pic_.png",
       name: "Classic Silk V3",
       price: "$125.00",
       Discription:

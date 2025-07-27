@@ -183,8 +183,8 @@ function SlipersCard() {
             <p className="text-xl font-bold text-center text-black pb-2">
               {item.price}
             </p>
-          <div className="flex grid grid-cols justify-center mt-3 pb-6">
-                          <button
+            <div className="flex grid grid-cols justify-center mt-3 pb-6">
+              <button
                 onClick={() => {
                   addToCart(item);
                   setClickedIndex(index);
@@ -197,7 +197,7 @@ function SlipersCard() {
 
               {clickedIndex === index && (
                 <p className="mt-4 text-center text-white text-sm bg-black/50 px-3 py-1 rounded-full shadow-md backdrop-blur-md animate-pulse">
-                   Added to Cart
+                  Added to Cart
                 </p>
               )}
             </div>

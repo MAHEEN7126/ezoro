@@ -1,5 +1,3 @@
-import React, { useEffect, useRef } from "react";
-
 function Page2() {
   return (
     <div className="w-full  h-[150px]  bg-white items-center justify-center justify-center">
@@ -15,7 +13,6 @@ function Page2() {
           "/assets/Footwears/FootwearSlipers/ideogram-v3-quality_create_a_slipper_pic (1).png",
           "/assets/Page2Pics/ideogram-v3-quality_create_a_1_standing_ (5).png",
           "/assets/Page2Pics/ideogram-v3-quality_give_me_stylish_and_.png",
-
         ].map((filename, index) => (
           <div
             key={index}
