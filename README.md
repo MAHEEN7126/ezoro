@@ -1,41 +1,39 @@
-# 🛍️ Ezoro – Clean & Creative E-commerce Interface
+# Ezoro
 
-Ezoro is a visually appealing and modern e-commerce web app built with a clean, minimalist design to offer a smooth and engaging shopping experience. While still in early development, the platform showcases key features like adding products to the cart, removing items, and user authentication via Firebase.
+Ezoro is a modern e-commerce platform featuring a clean and creative design. While it's not fully functional yet, the app currently showcases products with the ability to:
 
-## ✨ Features
+- Browse creative product cards
+- Add items to cart by URL
+- Delete items from the cart
+- Experience a sleek and responsive UI
+- Sign up and log in using Firebase Authentication
 
-- 🔐 **User Authentication**
-  - Sign up and login using Firebase Authentication.
-  - Secure and fast authentication flow.
+## Features
 
-- 🛒 **Cart Functionality**
-  
-  - add & Delete items from the cart easily.
-  - View your selections in a neat and simple cart interface.
+- 🛒 Cart functionality (add/delete)
+- 🔐 Firebase Authentication (Login/Signup)
+- ✨ Clean and minimal UI/UX
+- 💡 Great design experience using React
 
-- 🎨 **Clean & Creative UI**
-  - Sleek and modern layout.
-  - Responsive design for all screen sizes.
-  - Stylish use of colors and minimalism for a smooth user experience.
+## Tech Stack
 
-- ⚡ **Firebase Integration**
-  - Firebase Auth for secure login/signup.
-  - Firebase-hosted or local product handling (expandable to Firestore or Realtime DB).
+- React.js
+- Firebase (Auth)
+- Tailwind CSS
+- React Router
 
-## 🚀 Tech Stack
+## Live Demo
 
-- **React.js** – Frontend UI
-- **Tailwind CSS** – Styling & responsive design
-- **React Router** – Client-side navigation
-- **Firebase** – Auth & future backend support
+> Coming soon...
 
-## 📸 Screenshots
+## Installation
 
-> *Insert screenshots here if you have them (optional)*
+```bash
+git clone https://github.com/MAHEEN7126/ezoro.git
+cd ezoro
+npm install
+npm start
 
-## 🔧 Setup Instructions
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/ezoro.git
-   cd ezoro
+
+
