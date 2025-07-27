@@ -39,3 +39,7 @@ coverage/
 ehthumbs.db
 Icon?
 Desktop.ini
+
+ # Ignore Firebase config env file
+firebaseConfig.env
+*.env
