@@ -7,7 +7,8 @@ function Sliper() {
       <header className="overflow-hidden">
         <div className=" mt-[34px] relative shadow-md w-full h-[200px] sm:h-[200px] lg:h-[300px] overflow-hidden">
           <img
-            src="/assets/CoverPics/ideogram-v3-quality_give_me_models_are_s.webp"
+            loading="lazy"
+            src="/assets/CoverPics/ideogram-v3-quality_give_me_models_are_s.png"
             alt="Slipper Cover"
             className="absolute   w-full h-full object-cover object-[30%_100%]"
           />
@@ -45,7 +46,7 @@ function Sliper() {
       </main>
       <footer className="bg-black text-white text-center py-4 mt-10">
         <p className="text-sm">
-          © {new Date().getFullYear()} YourBrand. All rights reserved.
+          © {new Date().getFullYear()} ezoro. All rights reserved.
         </p>
       </footer>
     </div>

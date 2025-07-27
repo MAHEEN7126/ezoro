@@ -6,7 +6,9 @@ function Clothes() {
       <div>
         <header className=" mt-[34px] w-full overflow-hidden relative h-[200px] sm:h-[300px] lg-[300px]">
           <img
-            src="/assets/CoverPics/beautiful-blonde-woman-blue-light (2).webp"
+            loading="lazy"
+            src="/assets/CoverPics/beautiful-blonde-woman-blue-light.jpg"
+
             alt="womanpic"
             className="absolute w-full h-full object-cover top-3 object-[20%_40%] h-auto rounded-1xl"
           />
@@ -29,7 +31,7 @@ function Clothes() {
       </main>
       <footer className="bg-black text-white text-center py-4 mt-10">
         <p className="text-sm">
-          © {new Date().getFullYear()} YourBrand. All rights reserved.
+          © {new Date().getFullYear()} ezoro. All rights reserved.
         </p>
       </footer>
     </div>

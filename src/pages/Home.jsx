@@ -31,7 +31,7 @@ function Home() {
 
       <footer className="bg-black text-white text-center py-4 mt-10">
         <p className="text-sm">
-          © {new Date().getFullYear()} YourBrand. All rights reserved.
+          © {new Date().getFullYear()} ezoro. All rights reserved.
         </p>
       </footer>
     </div>

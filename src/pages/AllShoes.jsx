@@ -6,7 +6,7 @@ function AllShoes() {
     <div className="bg-gray-200">
       <header className=" mt-[34px] relative  w-full h-[200px] sm:h-[200px] lg:h-[300px] overflow-hidden shadow-md">
         <img
-          src="/assets/CoverPics/ideogram-v3-quality_give_me_models_are_s (1).webp"
+          src="/assets/CoverPics/ideogram-v3-quality_give_me_models_are_s (1).png"
           alt="ShoesPic"
           className="absolute top-0 left-0 w-full h-full object-cover object-[30%_100%]"
         />
@@ -47,7 +47,7 @@ function AllShoes() {
       <div>
         <footer className="bg-black text-white text-center py-4 mt-10">
           <p className="text-sm">
-            © {new Date().getFullYear()} YourBrand. All rights reserved.
+            © {new Date().getFullYear()} ezoro. All rights reserved.
           </p>
         </footer>
       </div>
