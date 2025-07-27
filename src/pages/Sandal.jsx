@@ -6,7 +6,7 @@ function Sandal() {
     <div className="bg-gray-100">
       <header className=" mt-[34px] relative w-full h-[200px] sm:h-[300px] lg:h-[300px] overflow-hidden shadow-md">
         <img
-          src="/assets/CoverPics/ideogram-v3-quality_give_me_shoes_pic_we (1).png"
+          src="/assets/CoverPics/ideogram-v3-quality_give_me_shoes_pic_we (1).webp"
           alt="modelshoespic"
           className="absolute top-0 left-0 w-full h-full object-cover object-[30%_46%]"
         />

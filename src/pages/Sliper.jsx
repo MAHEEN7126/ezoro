@@ -7,7 +7,7 @@ function Sliper() {
       <header className="overflow-hidden">
         <div className=" mt-[34px] relative shadow-md w-full h-[200px] sm:h-[200px] lg:h-[300px] overflow-hidden">
           <img
-            src="/assets/CoverPics/ideogram-v3-quality_give_me_models_are_s.png"
+            src="/assets/CoverPics/ideogram-v3-quality_give_me_models_are_s.webp"
             alt="Slipper Cover"
             className="absolute   w-full h-full object-cover object-[30%_100%]"
           />
