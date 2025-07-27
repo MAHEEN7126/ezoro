@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase";
-import Signup from "./Signup";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -62,7 +61,7 @@ function Login() {
           )}
 
           <p className="text-center mt-1  text-gray-400">
-            Don’t have an account?{" "}
+            Don’t have an account?
             <button
               onClick={() => navigate("/Signup")}
               type="button"
