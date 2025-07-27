@@ -20,7 +20,7 @@ function Header() {
           loop
           playsInline
           muted
-          src="/assets/CoverPics/6009714_4k_Video_Attractive_3840x2160.mp4"
+          src="/assets/CoverPics/6009714_4k_Video_Attractive_3840x2160 (1).mp4"
           type="video/mp4"
           className="w-full h-full object-cover"
         />
