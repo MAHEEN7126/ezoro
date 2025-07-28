@@ -19,10 +19,10 @@ function Profile() {
             className="w-16 h-16 rounded-full border-2 border-white/40 shadow"
           />
           <div>
-            <h2 className="text-xl font-semibold hover:scale-105 transition-transform duration-300 cursor-pointer">
+            <h2 className="whitespace-nowrap text-xl font-semibold hover:scale-105 transition-transform duration-300 cursor-pointer">
               Jon
             </h2>
-            <p className="text-white/70 text-sm hover:text-white transition-all duration-300 cursor-pointer">
+            <p className="whitespace-nowrap text-white/70 text-sm hover:text-white transition-all duration-300 cursor-pointer">
               jon.doe@domain.com
             </p>
           </div>
@@ -30,18 +30,18 @@ function Profile() {
 
         <div className="space-y-4 text-sm">
           <div className="hover:bg-white/10 p-3 rounded-md transition-all duration-300 cursor-pointer">
-            <h3 className="font-semibold text-white/90">Experience</h3>
-            <p className="text-white/70">UI/UX Designer · 3 Years</p>
+            <h3 className="whitespace-nowrap font-semibold text-white/90">Experience</h3>
+            <p className=" whitespace-nowrap text-white/70">UI/UX Designer · 3 Years</p>
           </div>
 
           <div className="hover:bg-white/10 p-3 rounded-md transition-all duration-300 cursor-pointer">
-            <h3 className="font-semibold text-white/90">Expertise</h3>
-            <p className="text-white/70">React · Firebase · Framer Motion</p>
+            <h3 className=" whitespace-nowrap font-semibold text-white/90">Expertise</h3>
+            <p className="whitespace-nowrap text-white/70">React · Firebase · Framer Motion</p>
           </div>
 
           <div className="hover:bg-white/10 p-3 rounded-md transition-all duration-300 cursor-pointer">
             <h3 className="font-semibold text-white/90">Interests</h3>
-            <p className="text-white/70">
+            <p className="whitespace-nowrap text-white/70">
               Dark UI · Animation · Micro-interactions
             </p>
           </div>

@@ -5,14 +5,14 @@ function Sliper() {
   return (
     <div className="bg-gray-100">
       <header className="overflow-hidden">
-        <div className=" mt-[34px] relative shadow-md w-full h-[200px] sm:h-[200px] lg:h-[300px] overflow-hidden">
+        <div className="mt-[34px] relative shadow-md w-full h-[200px] sm:h-[200px] lg:h-[300px] overflow-hidden">
           <img
             loading="lazy"
             src="/assets/CoverPics/ideogram-v3-quality_give_me_models_are_s.png"
             alt="Slipper Cover"
-            className="absolute   w-full h-full object-cover object-[30%_100%]"
+            className="absolute w-full h-full object-cover object-[30%_100%]"
           />
-          <h1 className="text-3xl font-semibold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white drop-shadow-md">
+          <h1 className="whitespace-nowrap text-3xl font-semibold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white drop-shadow-md">
             Comfort Meets Class
           </h1>
           <p className="absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-6 whitespace-nowrap text-sm text-gray-200">

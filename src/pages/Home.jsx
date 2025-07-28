@@ -8,10 +8,10 @@ function Home() {
       {/* Brand Story or Tagline */}
       <section className="mt-[34px] items-center justify-center text-center overflow-hidden">
         <Header />
-        <h2 className="text-4xl sm:text-5xl font-sail text-center mt-20">
+        <h2 className="whitespace-nowrap text-4xl sm:text-5xl font-sail text-center mt-20">
           Crafted with Elegance
         </h2>
-        <p className="max-w-2xl mx-auto text-lg text-gray-600 text-center mt-4">
+        <p className="whitespace-nowrap max-w-2xl mx-auto text-lg text-gray-600 text-center mt-4">
           Every detail, every stitch — tells a story of timeless luxury.
         </p>
       </section>

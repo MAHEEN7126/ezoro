@@ -11,10 +11,10 @@ function Jewelry() {
             alt="Jewelrypic"
             className="absolute top-6 w-full h-full object-cover object-[30%_105%]"
           />
-          <h1 className="text-3xl text-gray-300 font-bold text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:text-6xl">
+          <h1 className="whitespace-nowrap text-3xl text-gray-300 font-bold text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:text-6xl">
             Forever in Style
           </h1>
-          <h2 className="text-white whitespace-nowrap absolute mt-2 top-1/2 left-1/2 transform -translate-x-1/2  translate-y-1/2 fontsixe-30 font-serif fontsize-5 tracking-wide sm:fontsiz-40">
+          <h2 className="whitespace-nowrap text-white whitespace-nowrap absolute mt-2 top-1/2 left-1/2 transform -translate-x-1/2  translate-y-1/2 fontsixe-30 font-serif fontsize-5 tracking-wide sm:fontsiz-40">
             Where elegance isn't worn, it's lived.
           </h2>
         </div>

@@ -26,10 +26,10 @@ function AllShoes() {
           </Link>
         </nav>
 
-        <h1 className="text-3xl font-semibold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center">
+        <h1 className=" text-3xl font-semibold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center">
           Walk the Legacy
         </h1>
-        <h2 className="absolute top-1/2 left-1/2 -translate-x-1/2 text-xs sm:text-sm text-white whitespace-nowrap mt-5 sm:mt-6 md:mt-7 lg-mt-9">
+        <h2 className="whitespace-nowrap absolute top-1/2 left-1/2 -translate-x-1/2 text-xs sm:text-sm text-white whitespace-nowrap mt-5 sm:mt-6 md:mt-7 lg-mt-9">
           Timeless elegance, crafted into every graceful step
         </h2>
       </header>

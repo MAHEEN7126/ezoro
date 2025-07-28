@@ -28,10 +28,10 @@ function Sandal() {
         </nav>
 
         {/* TEXT on image */}
-        <h1 className="text-3xl font-semibold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center">
+        <h1 className="whitespace-nowrap text-3xl font-semibold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center">
           Walk the Legacy
         </h1>
-        <h2 className="absolute top-[60%] left-1/2 -translate-x-1/2 text-sm text-white whitespace-nowrap">
+        <h2 className="whitespace-nowrap absolute top-[60%] left-1/2 -translate-x-1/2 text-sm text-white whitespace-nowrap">
           Timeless elegance, crafted into every graceful step
         </h2>
       </header>
