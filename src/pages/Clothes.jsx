@@ -4,7 +4,7 @@ function Clothes() {
   return (
     <div className="bg-gray-200">
       <div>
-        <header className=" mt-[34px] w-full overflow-hidden relative h-[200px] sm:h-[300px] lg-[300px]">
+        <header className=" w-auto mt-[34px] w-full overflow-hidden relative h-[200px] sm:h-[300px] lg-[300px]">
           <img
             loading="lazy"
             src="/assets/CoverPics/beautiful-blonde-woman-blue-light.jpg"
