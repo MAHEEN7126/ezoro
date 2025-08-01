@@ -4,7 +4,7 @@ function Jewelry() {
   return (
     <div className="bg-gray-300">
       <header className="overflow-hidden">
-        <div className=" mt-[34px] object-cover shadow-md relative w-full h-[200px] sm:h-[200px] md:h-[300px] overflow-hidden">
+        <div className="mt-[34px] object-cover shadow-md relative w-full h-[200px] sm:h-[200px] md:h-[300px] overflow-hidden">
           <img
           loading="lazy"
             src="/assets/CoverPics/ideogram-v3-quality_give_me_many_beautif.png"
