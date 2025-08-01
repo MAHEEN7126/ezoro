@@ -4,18 +4,17 @@ function Clothes() {
   return (
     <div className="bg-gray-200">
       <div>
-        <header className=" w-auto mt-[34px] w-full overflow-hidden relative h-[200px] sm:h-[300px] lg-[300px]">
+        <header className="w-full mt-[37px] overflow-hidden relative h-[200px] sm:h-[300px] lg:h-[300px]">
           <img
             loading="lazy"
             src="/assets/CoverPics/beautiful-blonde-woman-blue-light.jpg"
-
             alt="womanpic"
-            className="absolute w-full h-full object-cover top-3 object-[20%_40%] h-auto rounded-1xl"
+            className="absolute top-0 left-0 w-full h-full object-cover rounded-xl"
           />
-          <h2 className="text-white whitespace-nowrap absolute top-1/2 left-1/2 tranfrom -translate-x-1/2 translate-y-1/2 text-4xl font-bold font-serif tracking-wide ">
+          <h2 className="text-white whitespace-nowrap absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl font-bold font-serif tracking-wide">
             Pure Elegance
           </h2>
-          <h2 className="text-white whitespace-nowrap absolute mt-14 top-1/2 left-1/2 transform -translate-x-1/2  translate-y-1/2 fontsixe-30 font-serif fontsize-5 tracking-wide sm:fontsiz-40">
+          <h2 className="text-white absolute top-[65%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-xl sm:text-2xl font-serif tracking-wide">
             Where elegance isn't worn, it's lived.
           </h2>
         </header>
